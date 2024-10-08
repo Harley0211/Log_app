@@ -1,0 +1,25 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <!-- School Logo -->
+    <ImageView
+        android:id="@+id/schoolLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/nbspi_logo"
+        android:layout_centerInParent="true" />
+
+    <!-- Loading Ball (ProgressBar) -->
+    <ProgressBar
+        android:id="@+id/loadingBall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/schoolLogo"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:indeterminate="true"/>
+</RelativeLayout>
